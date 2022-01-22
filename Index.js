@@ -1,7 +1,7 @@
 import { World, Commands } from "mojang-minecraft"
 
 //Prefix for all custom commands
-const commandPrefix = "!!"
+const commandPrefix = "-"
 
 switch(command) {
   case "d" :
