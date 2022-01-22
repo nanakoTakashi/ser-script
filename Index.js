@@ -3,10 +3,12 @@ import { World, Commands } from "mojang-minecraft"
 //Prefix for all custom commands
 const commandPrefix = "!!"
 
-case 'hi':
-  // code
-  Commands.run(`execute "${player.nameTag}" ~~~ give @s diamond 1`, dimension)
-  break;
+switch(command) {
+  case "d" :
+   // code
+   Commands.run(`execute "${player.nameTag}" ~~~ give @s diamond 1`, dimension)
+    break;
+                }
 
 
 
